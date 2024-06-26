@@ -16,10 +16,10 @@ export const HeroCard = ({
   const heroImg = `/assets/heroes/${id}.jpg`;
 
   return (
-    <div className='row row-cols-1 row-cols-md-1 g-4  '>
+    <div className='row row-cols-1 row-cols-md-1 g-4 '>
       <div className='col'>
         <div className='card h-100'>
-          <img src={heroImg} alt={superhero} className='card-img-top' />
+          <img src={heroImg} alt={superhero} className='card-img-top ' />
           <div className='card-body'>
             <h5 className='card-title'>{superhero}</h5>
             <p className='card-text'>{alert_ego}</p>
@@ -32,6 +32,5 @@ export const HeroCard = ({
         </div>
       </div>
     </div>
-   
   );
 };
